@@ -1,7 +1,21 @@
 /*Ska innehålla olika stilelement så ja kan träna på Rulesetet för CSS*/
 
- body {
+
+body {
     font-family: 'Franklin Gothic Medium';
-
-
+    background-color: black;
+    color: antiquewhite;
+    
 }
+
+p[class=pratbubbla] {
+    display: inline;
+    border-color: antiquewhite;
+    border: 1px;
+    border-style: dashed;
+    padding: 5px;
+    
+    
+}
+
+
