@@ -18,4 +18,7 @@ p[class=pratbubbla] {
     
 }
 
-
+.text-bredvidbild {
+    display: inline-flexbox;
+    
+}
