@@ -8,17 +8,73 @@ body {
     
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 5px;
+    
+    background-color: red;
+    }
+
+.rubrik-bild img {
+    width: 100%;
+}
+
+.textbubbla, .text-bredvidbild {
+    color: black;
+    padding: 20px;
+    background-color: aqua;
+ }
+
+
+
 p[class=pratbubbla] {
-    display: inline;
     border-color: antiquewhite;
     border: 1px;
     border-style: dashed;
     padding: 5px;
-    
+    background-color: blue;
     
 }
 
-.text-bredvidbild {
-    display: ri;
+
+
+
+.leftie {
+    grid-column: span 2;
+    background-color: green;
+}
+
+.rightie {
+    grid-column: span 1;
+    background-color: greenyellow;
     
+}
+
+.l2 {
+    grid-column: span 1;
+    background-color: green;
+}
+
+.r2 {
+    grid-column: span 2;
+    background-color: greenyellow;
+}
+
+
+@media (max-width: 900px) {
+    .leftie, .rightie, .l2, .r2 {
+        grid-column: span 3;
+        background-color: teal;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .leftie, .rightie, .l2, .r2 {
+        grid-column: span 3;
+        background-color: burlywood;
+    }
+
 }
