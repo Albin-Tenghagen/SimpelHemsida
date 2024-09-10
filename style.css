@@ -78,3 +78,9 @@ p[class=pratbubbla] {
     }
 
 }
+
+.länk:hover {
+    background-color: chartreuse;
+    
+    transition: ease-in 0.3s;
+}
