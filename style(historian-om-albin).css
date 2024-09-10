@@ -1,0 +1,54 @@
+body {
+    font-family: 'Franklin Gothic Medium';
+    background-color: black;
+    color: antiquewhite;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 5px;
+    background-color: rgb(245, 242, 242);
+    text-align: center;
+}
+
+.huvudrubrik-overst {
+    background-color: aqua;
+    grid-column: span 3;
+    border: palevioletred;
+    border-width: 5px;
+}
+
+.inledning-leftie {
+    background-color: blue;
+    border: palevioletred;
+    border-width: 5px
+}
+
+.brödtext-mitt {
+    background-color: yellowgreen;
+    border: white;
+}
+
+.kontaktinfo-hoger {
+    background-color: yellow;
+    color: black;
+    border: white;
+}
+
+@media (max-width: 900px) {
+    .leftie, .rightie, .l2, .r2 {
+        grid-column: span 3;
+        background-color: teal;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .huvudrubrik-overst, .inledning-leftie, .brödtext-mitt, .kontaktinfo-hoger {
+        grid-column: span 3;
+
+    }
+}
