@@ -13,12 +13,14 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 5px;
-    
+    align-items: center;
     background-color: red;
     }
 
-.rubrik-bild img {
-    width: 100%;
+#trollkarlsbild {
+    display: block;
+    max-width: 100%;
+
 }
 
 .textbubbla, .text-bredvidbild {
@@ -44,12 +46,14 @@ p[class=pratbubbla] {
 .leftie {
     grid-column: span 2;
     background-color: green;
+    margin-inline: auto;
+    
 }
 
 .rightie {
     grid-column: span 1;
     background-color: greenyellow;
-    
+    margin-inline: left;
 }
 
 .l2 {
