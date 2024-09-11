@@ -29,8 +29,6 @@ body {
     background-color: aqua;
  }
 
-
-
 p[class=pratbubbla] {
     border-color: antiquewhite;
     border: 1px;
@@ -39,9 +37,6 @@ p[class=pratbubbla] {
     background-color: blue;
     
 }
-
-
-
 
 .leftie {
     grid-column: span 2;
@@ -65,7 +60,6 @@ p[class=pratbubbla] {
     grid-column: span 2;
     background-color: greenyellow;
 }
-
 
 @media (max-width: 900px) {
     .leftie, .rightie, .l2, .r2 {

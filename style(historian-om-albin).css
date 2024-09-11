@@ -15,7 +15,7 @@ body {
 }
 
 .huvudrubrik-overst {
-    background-color: aqua;
+    background-color: gray;
     grid-column: span 3;
     border: palevioletred;
     border-width: 5px;
